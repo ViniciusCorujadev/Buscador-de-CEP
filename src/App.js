@@ -3,7 +3,9 @@ import { UseSate } from 'react';
 import './style.css';
 import { FiSearch } from 'react-icons/fi';
 
-export default function App() {
+function App() {
+  const [input, setInput] = UseSate('Teste CEP 1234');
+
   return (
     <div className="container">
       <h1 className="title">Buscador CEP</h1>
@@ -27,3 +29,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
