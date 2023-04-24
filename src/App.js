@@ -4,23 +4,25 @@ import { FiSearch } from 'react-icons/fi';
 
 export default function App() {
   return (
-    <div classname="container">
-      <h1 classname="title">Buscador CEP</h1>
+    <div className="container">
+      <h1 className="title">Buscador CEP</h1>
 
-      <div classname="containerInput">
+      <div className="containerInput">
         <input type="text" placeholder="Digite Seu CEP..." />
 
-        <button classname="buttonSearch">
+        <button className="buttonSearch">
           <FiSearch />
-          </button>
+        </button>
       </div>
 
-      <main classname="main">
-        <h2>05665-060</h2>
+      <main className="main">
+        <h2>05665-060 </h2>
 
+        <span>Rua: </span>
+        <span>Complemento: </span>
+        <span>Bairro: </span>
+        <span>Localização:</span>
       </main>
-
-
     </div>
   );
 }
