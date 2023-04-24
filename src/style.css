@@ -10,8 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-meio-tom-memphis-azul-com-linhas-amarelas-e-formas-de-circulos_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.1694941558.1682267340&semt=robertav1_2_sidr");
-  background-size: cover;
+  background: linear-gradient(#f97316, #f97316);
 }
 
 .title {
@@ -36,7 +35,7 @@
   margin: 34px 0;
   display: flex;
   border-radius: 8px;
-  box-shadow:  1px 3px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .containerInput input {
@@ -96,5 +95,6 @@
   }
   .main {
     width: 80%;
+    min-height: 250px;
   }
 }
